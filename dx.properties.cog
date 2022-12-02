@@ -20,26 +20,12 @@
 # In case you are using another mechanism to update your docker repository with
 # new images, please make sure to manually update this file, too.
 
-DX_DOCKER_IMAGE_CONTENT_COMPOSER=epyc.2i.at:18444/dx/content-composer:CF206
+DX_DOCKER_IMAGE_CONTENT_COMPOSER=s008aa39r.staden.gotheborg.net:18444/hcl/content-composer:v1.20.0_20221014-1558
 DX_DOCKER_IMAGE_CORE=s008aa39r:18444/wps.goteborg_9.0.5_13_9.5_207:2022.48_01
-DX_DOCKER_IMAGE_DIGITAL_ASSET_MANAGER=epyc.2i.at:18444/dx/digital-asset-manager:CF206
-DX_DOCKER_IMAGE_DATABASE_NODE_DIGITAL_ASSET_MANAGER=epyc.2i.at:18444/dx/persistence-node:CF206
-DX_DOCKER_IMAGE_DATABASE_CONNECTION_POOL_DIGITAL_ASSET_MANAGER=epyc.2i.at:18444/dx/persistence-connection-pool:CF206
-DX_DOCKER_IMAGE_IMAGE_PROCESSOR=epyc.2i.at:18444/dx/image-processor:CF206
-DX_DOCKER_IMAGE_RING_API=epyc.2i.at:18444/dx/ringapi:CF206
-DX_DOCKER_IMAGE_DESIGN_STUDIO=epyc.2i.at:18444/dx/design-studio:CF206
-DX_DOCKER_IMAGE_HAPROXY=epyc.2i.at:18444/dx/haproxy:CF206
-DX_HOSTNAME=docker2
-
-#
-# COG specific
-REGISTRY_NAME=s008aa39r
-REGISTRY_PORT=18444
-DB2_SSHD_PORT_1=2224
-DB2_IMAGE_NAME_1=db2.wps.11.5.5.1
-DB2_IMAGE_VERSION_1=latest
-DB2_DB2INST1_PORT_1=60000
-DB2_DB2INST2_PORT_1=60100
-DB2_CONTAINER_NAME_1=db2-goteborg
-WP95_ENABLE_JREBEL_1=false
-WP95_WAS_PORT_PREFIX_1=100
+DX_DOCKER_IMAGE_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/digital-asset-manager:v1.19.0_20221014-1611
+DX_DOCKER_IMAGE_DATABASE_NODE_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/persistence-node:v1.9_20220908-1245
+DX_DOCKER_IMAGE_DATABASE_CONNECTION_POOL_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/persistence-connection-pool:v1.20.0_20221014-1612
+DX_DOCKER_IMAGE_IMAGE_PROCESSOR=s008aa39r.staden.gotheborg.net:18444/hcl/image-processor:v1.20.0_20221014-1606
+DX_DOCKER_IMAGE_RING_API=s008aa39r.staden.gotheborg.net:18444/hcl/ringapi:v1.20.0_20221014-1614
+DX_DOCKER_IMAGE_DESIGN_STUDIO=s008aa39r.staden.gotheborg.net:18444/hcl/design-studio:v0.12.0_20221014-1613
+DX_DOCKER_IMAGE_HAPROXY=s008aa39r.staden.gotheborg.net:18444/hcl/haproxy:v1.3.0_20221014-1605

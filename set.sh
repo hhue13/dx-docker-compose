@@ -26,7 +26,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 export COMPOSE_PROJECT_NAME=dx            # this defines a name prefix that all docker services and containers will inherit
 export COMPOSE_FILE=$SCRIPT_DIR/dx.yaml   # this tells docker-compose the name of the docker-compose file (the default name docker-compose.yaml was changed to prevent running it without a proper environment setup)
 
-export DX_HOSTNAME=localhost              # external hostname of dx environment. This normally is just localhost, but may be changed if not running local
+##### export DX_HOSTNAME=localhost              # external hostname of dx environment. This normally is just localhost, but may be changed if not running local
 
 # docker image versions
 export DX_DOCKER_IMAGE_CC=$(prop 'DX_DOCKER_IMAGE_CONTENT_COMPOSER')
@@ -37,7 +37,21 @@ export DX_DOCKER_IMAGE_DAM_DB_CONNECTION_POOL=$(prop 'DX_DOCKER_IMAGE_DATABASE_C
 export DX_DOCKER_IMAGE_IMAGE_PROCESSOR=$(prop 'DX_DOCKER_IMAGE_IMAGE_PROCESSOR')
 export DX_DOCKER_IMAGE_RINGAPI=$(prop 'DX_DOCKER_IMAGE_RING_API')
 export DX_DOCKER_IMAGE_DS=$(prop 'DX_DOCKER_IMAGE_DESIGN_STUDIO')
+export DX_HOSTNAME=$(prop 'DX_HOSTNAME')
+
 export DX_DOCKER_IMAGE_HAPROXY=$(prop 'DX_DOCKER_IMAGE_HAPROXY')
+
+# export CoG ENV Vars
+export REGISTRY_NAME=$(prop 'REGISTRY_NAME')
+export REGISTRY_PORT=$(prop 'REGISTRY_PORT')
+export DB2_SSHD_PORT_1=$(prop 'DB2_SSHD_PORT_1')
+export DB2_IMAGE_NAME_1=$(prop 'DB2_IMAGE_NAME_1')
+export DB2_IMAGE_VERSION_1=$(prop 'DB2_IMAGE_VERSION_1')
+export DB2_DB2INST1_PORT_1=$(prop 'DB2_DB2INST1_PORT_1')
+export DB2_DB2INST2_PORT_1=$(prop 'DB2_DB2INST2_PORT_1')
+export DB2_CONTAINER_NAME_1=$(prop 'DB2_CONTAINER_NAME_1')
+export WP95_ENABLE_JREBEL_1=$(prop 'WP95_ENABLE_JREBEL_1')
+export WP95_WAS_PORT_PREFIX_1=$(prop 'WP95_WAS_PORT_PREFIX_1')
 
 echo ""
 echo "##################################"
