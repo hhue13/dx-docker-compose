@@ -20,12 +20,13 @@
 # In case you are using another mechanism to update your docker repository with
 # new images, please make sure to manually update this file, too.
 
-DX_DOCKER_IMAGE_CONTENT_COMPOSER=s008aa39r.staden.gotheborg.net:18444/hcl/content-composer:v1.20.0_20221014-1558
-DX_DOCKER_IMAGE_CORE=s008aa39r:18444/wps.goteborg_9.0.5_13_9.5_207:2022.48_01
-DX_DOCKER_IMAGE_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/digital-asset-manager:v1.19.0_20221014-1611
+DX_DOCKER_IMAGE_CONTENT_COMPOSER=s008aa39r.staden.gotheborg.net:18444/hcl/content-composer:v1.22.0_20230119-2151
+DX_DOCKER_IMAGE_CORE=s008aa39r.staden.gotheborg.net:18444/hcl/core:v95_CF209_20230119
+##### DX_DOCKER_IMAGE_CORE=s008aa39r:18444/wps.goteborg_9.0.5_13_9.5_207:2022.48_01
+DX_DOCKER_IMAGE_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/digital-asset-manager:v1.21.0_20230119-2229
 DX_DOCKER_IMAGE_DATABASE_NODE_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/persistence-node:v1.9_20220908-1245
-DX_DOCKER_IMAGE_DATABASE_CONNECTION_POOL_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/persistence-connection-pool:v1.20.0_20221014-1612
-DX_DOCKER_IMAGE_IMAGE_PROCESSOR=s008aa39r.staden.gotheborg.net:18444/hcl/image-processor:v1.20.0_20221014-1606
-DX_DOCKER_IMAGE_RING_API=s008aa39r.staden.gotheborg.net:18444/hcl/ringapi:v1.20.0_20221014-1614
-DX_DOCKER_IMAGE_DESIGN_STUDIO=s008aa39r.staden.gotheborg.net:18444/hcl/design-studio:v0.12.0_20221014-1613
-DX_DOCKER_IMAGE_HAPROXY=s008aa39r.staden.gotheborg.net:18444/hcl/haproxy:v1.3.0_20221014-1605
+DX_DOCKER_IMAGE_DATABASE_CONNECTION_POOL_DIGITAL_ASSET_MANAGER=s008aa39r.staden.gotheborg.net:18444/hcl/persistence-connection-pool:v1.22.0_20230119-2226
+DX_DOCKER_IMAGE_IMAGE_PROCESSOR=s008aa39r.staden.gotheborg.net:18444/hcl/image-processor:v1.22.0_20230119-2220
+DX_DOCKER_IMAGE_RING_API=s008aa39r.staden.gotheborg.net:18444/hcl/ringapi:v1.22.0_20230119-2223
+DX_DOCKER_IMAGE_DESIGN_STUDIO=s008aa39r.staden.gotheborg.net:18444/hcl/design-studio:v0.9.0_20220602-1755
+DX_DOCKER_IMAGE_HAPROXY=s008aa39r.staden.gotheborg.net:18444/hcl/haproxy:v1.5.0_20230119-2219
